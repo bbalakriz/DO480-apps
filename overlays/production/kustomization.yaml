@@ -1,0 +1,10 @@
+kind: Kustomization
+
+bases:
+ - ../../base
+
+resources:
+ - pvc.yaml 
+ - route.yaml
+
+namePrefix: prod- 
